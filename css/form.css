@@ -1,0 +1,18 @@
+@charset "utf-8";
+.table_form th { background-color: #f4f4f4; color: #fe7483; }
+.table_form th.hissu { background-image:url(../common_img/hissu.gif); background-repeat:no-repeat; background-position:5px center; padding-left:50px !important; background-size:40px auto; -webkit-background-size:40px auto; -moz-background-size:40px auto; }
+.table_form th.ninni { background-image:url(../common_img/ninni.gif); background-repeat:no-repeat; background-position:5px center; padding-left:50px !important; background-size:40px auto; -webkit-background-size:40px auto; -moz-background-size:40px auto; }
+.table_form ul { margin: 0; padding: 0; }
+.table_form label { margin-bottom: 0; font-weight: normal; }
+.table_form ul li { list-style-type: none; }
+.form_control { padding: 2px 5px; border: 1px solid #dbdbdb; display: block; width: 100%; }
+.form_control_sm { display: inline-block; width: 25%; }
+.form_control_md { display: inline-block; width: 73%; }
+textarea.form_control { height: 28px; min-height: 28px; max-height:84px; }
+textarea.form_control:focus { height:auto; }
+.btn_submit { background-color: #d1d1d1; }
+/* ---IME ON--- */
+.ime_on { ime-mode: active; }
+/* ---IME KILL--- */
+.ime_off { ime-mode: disabled; }
+.btn_submit { background-color: #d1d1d1; }
